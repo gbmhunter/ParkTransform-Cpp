@@ -4,8 +4,8 @@ Park Transformation Library
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2012/10/10
-- Last Modified: 2013/06/08
-- Version: v1.0.0.1
+- Last Modified: 2013/06/17
+- Version: v1.0.1.0
 - Company: CladLabs
 - Project: n/a
 - Language: C++
@@ -53,6 +53,7 @@ Changelog
 ======== ========== ===================================================================================================
 Version  Date       Comment
 ======== ========== ===================================================================================================
+v1.0.1.0 2013/06/17 Deleted .hgignore file. Renamed header to .hpp and moved into 'src/include'.
 v1.0.0.1 2013/06/08 README now in table format.
 v1.0.0.0 2013/06/03 First versioned commit. Added README.rst. Moved code into 'src' folder.
 ======== ========== ===================================================================================================
