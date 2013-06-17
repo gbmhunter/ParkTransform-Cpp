@@ -11,8 +11,8 @@
 //====================================== HEADER GUARD ===========================================//
 //===============================================================================================//
 
-#ifndef _PARK_TRANSFORM_H
-#define _PARK_TRANSFORM_H
+#ifndef PARK_TRANSFORM_H
+#define PARK_TRANSFORM_H
 
 #ifndef __cplusplus
 	#error Please build with C++ compiler
@@ -55,8 +55,8 @@ namespace ParkTransform
 
 	// none
 
-} // namespace ClarkTransform
+} // namespace ParkTransform
 
-#endif // #ifndef _PARK_TRANSFORM_H
+#endif // #ifndef PARK_TRANSFORM_H
 
 // EOF

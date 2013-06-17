@@ -1,47 +1,26 @@
 //!
-//! @file 		ParkTransform.c
+//! @file 		ParkTransform.cpp
 //! @author 	Geoffrey Hunter <gbmhunter@gmail.com> (www.cladlab.com)
 //! @edited 	n/a
 //! @date 		09/10/2012
 //! @brief 		Contains the forward and inverse Park transformations, used in BLDC motor control.
 //! @details
-//!		<b>Last Modified:			</b> 29/10/2012					\n
-//!		<b>Version:					</b> v1.0.0						\n
-//!		<b>Company:					</b> CladLabs					\n
-//!		<b>Project:					</b> Free code examples			\n
-//!		<b>Language:				</b> C++						\n
-//!		<b>Compiler:				</b> GCC						\n
-//! 	<b>uC Model:				</b> PSoC5						\n
-//!		<b>Computer Architecture:	</b> ARM						\n
-//! 	<b>Operating System:		</b> FreeRTOS v7.2.0			\n
-//!		<b>Documentation Format:	</b> Doxygen					\n
-//!		<b>License:					</b> GPLv3						\n
-//!		
-//! 	Choice of either fixed-point (fast, but requires ) or double (slow) data types
+//!				See README.rst.
 
 //===============================================================================================//
 //========================================= INCLUDES ============================================//
-//===============================================================================================//
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-// PSoC
-#include <device.h>
+//===============================================================================================//	
 
 // GCC
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-
-// FreeRTOS includes
-#include "FreeRTOS.h"
-#include "task.h"
-#include "queue.h"
-#include "semphr.h"
-
+#ifdef __cplusplus
+extern "C" {
+#endif
+	// PSoC
+	#include <device.h>
 #ifdef __cplusplus
 }
 #endif
@@ -50,8 +29,6 @@ extern "C" {
 #include "PublicDefinesAndTypeDefs.h"
 #include "Config.h"
 #include "./FixedPoint/FP.h"
-#include "Bldc.h"
-#include "Foc.h"
 #include "UartDebug.h"
 #include "ParkTransform.h"
 
