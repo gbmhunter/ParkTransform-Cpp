@@ -1,11 +1,18 @@
 ============================
-Park Transformation Library
+park-transform-cpp
 ============================
+
+---------------------------
+Park Transformation Library
+---------------------------
+
+.. image:: https://api.travis-ci.org/gbmhunter/park-tranform-cpp.png?branch=master   
+	:target: https://travis-ci.org/gbmhunter/park-transform-cpp
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2012/10/10
 - Last Modified: 2014/01/21
-- Version: v2.0.0.0
+- Version: v2.1.0.0
 - Company: CladLabs
 - Project: n/a
 - Language: C++
@@ -57,6 +64,7 @@ Changelog
 ======== ========== ==========================================================================================================
 Version  Date       Comment
 ======== ========== ==========================================================================================================
+v2.1.0.0 2014/01/21 Added TravisCI config file, and TravisCI image to README, closes #13. Updated project title in README.
 v2.0.0.0 2014/01/21 Added Makefile, closes #8. Added automatic dependency generation, closes #14. Added unit tests, closes #7. Added config file, closes #18. Make fixed-point functions optional via pre-compiler macros, closes #17. Removed unneccessary includes from code files, closes #11. Converted functions into methods of new class 'Transformer', closes #9. Moved function descriptions to .hpp file, closes #6. Header guard comment fixed, closes #5. Removed _ prefix from header guards, closes #4.
 v1.1.0.0 2014/01/21 Moved and renamed code files to follow new file format, closes #15. Created Eclipse project files for library, closes #16.
 v1.0.2.0 2013/06/17 Removed unnecessary includes from .cpp file. Removed '_' from header guard. Change Clark comment to Park.
