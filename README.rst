@@ -4,8 +4,8 @@ Park Transformation Library
 
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2012/10/10
-- Last Modified: 2013/06/17
-- Version: v1.0.2.0
+- Last Modified: 2014/01/21
+- Version: v1.1.0.0
 - Company: CladLabs
 - Project: n/a
 - Language: C++
@@ -40,12 +40,12 @@ Usage
 	
 	Coming soon.
 	
-See test/ParkTransformTest.cpp for more examples.
+See `test/ParkTransformTest.cpp` for more examples.
 	
 Issues
 ------
 
-For known bugs, desired enhancements e.t.c, see GitHub issues section.
+See the GitHub issues section.
 	
 Changelog
 ---------
@@ -53,6 +53,7 @@ Changelog
 ======== ========== ==========================================================================================================
 Version  Date       Comment
 ======== ========== ==========================================================================================================
+v1.1.0.0 2014/01/21 Moved and renamed code files to follow new file format, closes #15. Created Eclipse project files for library, closes #16.
 v1.0.2.0 2013/06/17 Removed unnecessary includes from .cpp file. Removed '_' from header guard. Change Clark comment to Park.
 v1.0.1.0 2013/06/17 Deleted .hgignore file. Renamed header to .hpp and moved into 'src/include'.
 v1.0.0.1 2013/06/08 README now in table format.
