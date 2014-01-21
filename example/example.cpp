@@ -5,7 +5,7 @@
 //! @last-modified 	2014/01/21
 //! @brief 			Example Park transform program, designed to be run on Linux.
 //! @details
-//!				See README.rst in root dir for more info.
+//!					See README.rst in root dir for more info.
 
 #include <stdio.h>
 #include <iostream>
@@ -20,9 +20,6 @@ using namespace std;
 int main()
 {
 	
-	//============ SETUP DEFAULT COMMAND GROUP ==========//
-
-	//rxController.defaultCmdGroup = &cmdGroupUser;
 
 	while(1)
 	{
@@ -31,7 +28,6 @@ int main()
 		cin.get(inputMsg, 30);
 		cin.ignore();
 
-		// Run rx controller
-		//rxController.Run(inputMsg);
+		// Add processing here to call a Park transformer and display the results...
 	}
 }

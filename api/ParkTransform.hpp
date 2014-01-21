@@ -4,7 +4,7 @@
 //! @edited 			n/a
 //! @created			2014/01/21
 //! @last-modified 		2014/01/21
-//! @brief 				API header for the Park transform library.
+//! @brief 				API header for the Park transform library. This is the only file you need to include to use the library.
 //! @details
 //!						See the README in the repo root dir for more info.
 
